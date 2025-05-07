@@ -12209,4 +12209,70 @@ textarea.form-control-lg {
   }
 }
 
+.whatsapp-container {
+  display: inline-block;
+  position: fixed;
+  bottom: 0px;
+  z-index: 100;
+  right: 1.875rem;
+  left: auto;
+}
+.whatsapp {
+  box-shadow: rgb(0 0 0 / 15%) 0px 3px 12px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  outline: transparent;
+  background-color: rgb(14, 193, 47);
+  margin-bottom: 20px;
+  width: auto;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+  padding: 4px 24px 4px 16px;
+}
+.bubble {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(255, 0, 0);
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  right: 4px;
+  top: 4px;
+  display: block !important;
+}
+.whatsapp .text-wh {
+  height: 32px;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.whatsapp-text {
+  display: block;
+  color: #ffffff;
+  line-height: 20px;
+  font-size: 15px;
+  padding: 0 5px;
+  font-weight: 700;
+  margin-left: 5px;
+  width: 100%;
+}
+.text-wh svg {
+color: #ffffff;
+width: 32px;
+height: 32px;
+}
+.whatsapp-container a {
+text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
